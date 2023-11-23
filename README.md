@@ -36,10 +36,16 @@ Do a "sudo nano config/server.properties" - change ADVERTISED_LISTENERS to publi
 cd kafka_2.12-3.3.1
 bin/kafka-topics.sh --create --topic demo-testing --bootstrap-server {Put the Public IP of your EC2 Instance:9092} --replication-factor 1 --partitions 1
 ```
+
+<img width="1201" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Analysis/assets/82653803/aa45f444-c8e5-4c4f-938a-eea89a5b6e47">
+
 ## Start Producer
 ```
 bin/kafka-console-producer.sh --topic demo-testing --bootstrap-server {Put the Public IP of your EC2 Instance:9092} 
 ```
+
+<img width="932" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Analysis/assets/82653803/cca84436-8648-4bff-b27b-bb2670533677">
+
 
 ## Start Consumer
 
@@ -48,6 +54,8 @@ Duplicate the session & enter in a new console --
 cd kafka_2.12-3.3.1
 bin/kafka-console-consumer.sh --topic demo-testing --bootstrap-server {Put the Public IP of your EC2 Instance:9092}
 ```
+
+<img width="939" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Analysis/assets/82653803/5fde9abc-97a1-4208-bfdf-35d19e605645">
 
 # Install Jupiter Notebook on MAC M1
 ```
