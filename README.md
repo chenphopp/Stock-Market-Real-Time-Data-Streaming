@@ -1,4 +1,4 @@
-# Stock-Market-Real-Time-Data-Analysis
+# Stock-Market-Real-Time-Data-Streaming
 Stock Market Real-Time Data Analysis Using Kafka
 
 Credit : Darshil Parmar Youtube Channel
@@ -86,3 +86,4 @@ jupyter notebook
 ![image](https://github.com/chenphopp/Stock-Market-Real-Time-Data-Analysis/assets/82653803/ab34a330-dd7e-4c89-8906-71ff7bfb0c6e)
 
 # Create KafkaProducer and KakfaConsumer
+- 
