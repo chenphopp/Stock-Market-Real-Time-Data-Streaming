@@ -34,11 +34,11 @@ Do a "sudo nano config/server.properties" - change ADVERTISED_LISTENERS to publi
 ## Create the topic
 ```
 cd kafka_2.12-3.3.1
-bin/kafka-topics.sh --create --topic demo-testing2 --bootstrap-server {Put the Public IP of your EC2 Instance:9092} --replication-factor 1 --partitions 1
+bin/kafka-topics.sh --create --topic demo-testing --bootstrap-server {Put the Public IP of your EC2 Instance:9092} --replication-factor 1 --partitions 1
 ```
 ## Start Producer
 ```
-bin/kafka-console-producer.sh --topic demo_testing2 --bootstrap-server {Put the Public IP of your EC2 Instance:9092} 
+bin/kafka-console-producer.sh --topic demo-testing --bootstrap-server {Put the Public IP of your EC2 Instance:9092} 
 ```
 
 ## Start Consumer
@@ -46,7 +46,7 @@ bin/kafka-console-producer.sh --topic demo_testing2 --bootstrap-server {Put the 
 Duplicate the session & enter in a new console --
 ```
 cd kafka_2.12-3.3.1
-bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server {Put the Public IP of your EC2 Instance:9092}
+bin/kafka-console-consumer.sh --topic demo-testing --bootstrap-server {Put the Public IP of your EC2 Instance:9092}
 ```
 
 # Install Jupiter Notebook on MAC M1
