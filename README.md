@@ -86,5 +86,7 @@ jupyter notebook
 ![image](https://github.com/chenphopp/Stock-Market-Real-Time-Data-Analysis/assets/82653803/ab34a330-dd7e-4c89-8906-71ff7bfb0c6e)
 
 # Create KafkaProducer and KakfaConsumer
-- KafkaProducer.ipybn for producer application
-- KafkaConsumer.ipybn for consumer application
+- KafkaProducer.ipynb for producer application
+- KafkaConsumer.ipynb for consumer application
+
+
