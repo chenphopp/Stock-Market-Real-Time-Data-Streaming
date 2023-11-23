@@ -16,11 +16,11 @@ sudo yum install java-1.8.0-amazon-corretto-devel
 java -version
 cd kafka_2.12-3.3.1
 ```
-## Start zookeeper
+## Start Zookeeper
 ```
 bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
-## Start kakfa
+## Start Kafka
 -----------
 Duplicate the session & enter in a new console --
 ```
