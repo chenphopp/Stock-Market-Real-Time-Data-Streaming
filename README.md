@@ -59,7 +59,7 @@ bin/kafka-console-consumer.sh --topic demo-testing --bootstrap-server {Put the P
 
 <img width="939" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Analysis/assets/82653803/5fde9abc-97a1-4208-bfdf-35d19e605645">
 
-# Install Jupiter Notebook on MAC M1
+## Install Jupiter Notebook on MAC M1
 ```
 brew install pyenv
 ```
