@@ -97,6 +97,7 @@ jupyter notebook
 
 <img width="1090" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/0a31dcdc-d9e3-407f-83e7-4dc3dff06a24">
 
+
 Give S3 full access permission then copy Access key ID and Secret access key for below 
 
 ```
@@ -105,7 +106,8 @@ chenphop@Chenphops-MacBook-Pro Downloads % aws configure
 AWS Access Key ID [****************C25A]: ..
 AWS Secret Access Key [****************ekD0]: ..
 ```
+
 *You need to install aws cli first*
 
-## 
+##  
 
