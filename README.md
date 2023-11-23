@@ -109,5 +109,19 @@ AWS Secret Access Key [****************ekD0]: ..
 
 *You need to install aws cli first*
 
-##  
+## Create AWS Glue for sourcing and loading table
+
+<img width="1148" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/fc008e5c-5ca5-4bbe-b999-1782a593f231">
+
+create role for Glue and give full access permission
+
+<img width="1087" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/eba25e70-f00c-453e-803e-89f85c758404">
+
+Now you can queury the data with queury service (Aws Athena)
+
+<img width="631" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/69291564-6955-47be-8713-fd8c4c7682ca">
+
+<img width="1031" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/cf62c3b3-67e4-4b5f-a7da-b9b318111ce5">
+
+
 
