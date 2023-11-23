@@ -1,5 +1,5 @@
 # Stock-Market-Real-Time-Data-Streaming
-Stock Market Real-Time Data Analysis Using Kafka
+Stock Market Real-Time Data Streaming Using Kafka
 
 Credit : Darshil Parmar Youtube Channel
 
