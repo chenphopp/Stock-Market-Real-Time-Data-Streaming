@@ -5,12 +5,12 @@ Stock Market Real-Time Data Analysis Using Kafka
 
 ## Install Kafka
 ```
-wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
+wget https://archive.apache.org/dist/kafka/3.3.1/kafka_2.12-3.3.1.tgz
 tar -xvf kafka_2.12-3.3.1.tgz
 ```
 ```
 java -version
-sudo yum install java-1.8.0-openjdk
+sudo yum install java-1.8.0-amazon-corretto-devel
 java -version
 cd kafka_2.12-3.3.1
 ```
@@ -34,7 +34,7 @@ Do a "sudo nano config/server.properties" - change ADVERTISED_LISTENERS to publi
 ## Create the topic
 ```
 cd kafka_2.12-3.3.1
-bin/kafka-topics.sh --create --topic demo_testing2 --bootstrap-server {Put the Public IP of your EC2 Instance:9092} --replication-factor 1 --partitions 1
+bin/kafka-topics.sh --create --topic demo-testing2 --bootstrap-server {Put the Public IP of your EC2 Instance:9092} --replication-factor 1 --partitions 1
 ```
 ## Start Producer
 ```
@@ -49,4 +49,30 @@ cd kafka_2.12-3.3.1
 bin/kafka-console-consumer.sh --topic demo_testing2 --bootstrap-server {Put the Public IP of your EC2 Instance:9092}
 ```
 
+# Install Jupiter Notebook on MAC M1
+```
+brew install pyenv
+```
+```
+pyenv install --list
+pyenv install 3.10.12
+pyenv global 3.10.12
+```
+```
+pyenv init
+```
 
+![image](https://github.com/chenphopp/Stock-Market-Real-Time-Data-Analysis/assets/82653803/87d21dcf-79f8-4ba9-a1e0-cd52df70b4ac)
+
+```
+python --version
+```
+
+Install Jupiter Notebook
+```
+jupyter notebook
+```
+
+![image](https://github.com/chenphopp/Stock-Market-Real-Time-Data-Analysis/assets/82653803/ab34a330-dd7e-4c89-8906-71ff7bfb0c6e)
+
+# Create KafkaProducer and KakfaConsumer
