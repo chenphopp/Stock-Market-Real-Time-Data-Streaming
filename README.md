@@ -93,18 +93,19 @@ jupyter notebook
 
 <img width="1090" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/f00eabc1-09e7-4d69-b82f-66bd652d060b">
 
-## create user for access S3 from your machine
+## Create user for access S3 from your machine
 
 <img width="1090" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/0a31dcdc-d9e3-407f-83e7-4dc3dff06a24">
 
 Give S3 full access permission then copy Access key ID and Secret access key for below 
 
 ```
+## Do it on your host machine ***
 chenphop@Chenphops-MacBook-Pro Downloads % aws configure
 AWS Access Key ID [****************C25A]: ..
 AWS Secret Access Key [****************ekD0]: ..
 ```
-*You need ti install aws cli first*
+*You need to install aws cli first*
 
-
+## 
 
