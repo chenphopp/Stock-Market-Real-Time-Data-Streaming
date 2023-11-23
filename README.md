@@ -119,7 +119,9 @@ create role for Glue and give full access permission
 
 Now you can queury the data with queury service (Aws Athena)
 
+
 <img width="631" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/69291564-6955-47be-8713-fd8c4c7682ca">
+
 
 <img width="1031" alt="image" src="https://github.com/chenphopp/Stock-Market-Real-Time-Data-Streaming/assets/82653803/cf62c3b3-67e4-4b5f-a7da-b9b318111ce5">
 
